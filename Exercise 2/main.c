@@ -11,7 +11,8 @@ int most_common_multiple(int a, int b) {
 }
 
 int least_common_number(int a, int b) {
-    return ((a * b)/ most_common_multiple(a, b));
+    int mcm = most_common_multiple(a, b);
+    return (a* b) / mcm;
 }
 
 int main() {
