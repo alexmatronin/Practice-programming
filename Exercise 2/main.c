@@ -16,7 +16,7 @@ int least_common_number(int a, int b) {
 }
 
 int main() {
-
+    
     int p, result, numbers[p];
 
     printf("Введіть кількість чисел: \n");
